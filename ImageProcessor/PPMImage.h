@@ -1,3 +1,7 @@
+// author: Amanda Ngo 
+// date: July 19, 2021
+// last modified: July 18, 2022
+
 #include <stdio.h>
 #include <stdint.h>
 
@@ -12,7 +16,6 @@ typedef struct {
     unsigned int cols;
 } img_t;
 
-// A3 REDECLARATIONS
 typedef enum {
     IMG_OK,
     IMG_BADINPUT,
@@ -30,14 +33,4 @@ img_result_t img_set(img_t* im, unsigned int row, unsigned int col, int val);
 
 img_result_t img_get(const img_t* im, unsigned int row, unsigned int col, int* val);
 
-
-/* task 03 */
-
-/*
-  Save the entire 2D array im into a file called 'filename' in a .ppm
-  text file image format. Returns zero on success, or a non-zero error
-  code on failure. Arrays of length 0 should produce an empty output file.
-
-  Make sure you validate the parameters before you use them.
-*/
 int img_save_ppm(img_t* im, const char* filename);
