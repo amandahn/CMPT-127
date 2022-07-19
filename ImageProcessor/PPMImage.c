@@ -1,14 +1,15 @@
-// author: Amanda Ngo 301433193
+// author: Amanda Ngo 
 // date: July 19, 2021
+// last modified: July 18, 2022
 // input: void
 // output: int
-// description: Create a program to test the functions made in t3img.c
+// description: Create a program to test the functions made in PPMImage.c
 
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "t3img.h"
+#include "PPMImage.h"
 
 int main(){
     printf("Running task 3 tests...\n");
