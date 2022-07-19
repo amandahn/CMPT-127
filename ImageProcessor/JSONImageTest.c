@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "t2img.h"
+#include "JSONImage.h"
 
 
 int main(){
