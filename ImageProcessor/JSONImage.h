@@ -1,3 +1,7 @@
+// author: Amanda Ngo 
+// date: July 18, 2021
+// last modified: July 18, 2022
+
 #include <stdio.h>
 #include <stdint.h>
 
