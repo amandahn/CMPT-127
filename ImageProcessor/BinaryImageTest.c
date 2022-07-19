@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "t1img.h"
+#include "BinaryImage.h"
 
 // helper function that prints the content of the img
 void print_img(img_t* im) {
