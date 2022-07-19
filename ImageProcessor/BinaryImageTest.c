@@ -1,4 +1,4 @@
-// author: Amanda Ngo 301433193
+// author: Amanda Ngo 
 // date: July 17, 2021
 // last modified: July 18, 2022
 // input: void
