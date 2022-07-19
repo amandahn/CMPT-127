@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "t1img.h"
+#include "BinaryImage.h"
 
 
 img_t* img_create(unsigned int rows, unsigned int cols){
