@@ -1,11 +1,14 @@
+// author: Amanda Ngo 
+// date: July 19, 2021
+// last modified: July 18, 2022
+// description: Create a program to save an image object as a .ppm file
+
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "t3img.h"
-
-// DECLARATIONS OF FUNCTIONS FROM PREVIOUS ASSIGNMENT 
+#include "PPMImage.h" 
 
 img_t* img_create(unsigned int rows, unsigned int cols){
     unsigned int empty = 0;
@@ -72,8 +75,6 @@ img_result_t img_get(const img_t* im, unsigned int row, unsigned int col, int* v
     *val = im -> pixels[row][col];
     return IMG_OK;
 }
-
-// END OF PREVIOUS FUNCTION DECLARATIONS
 
 int img_save_ppm(img_t* im, const char* filename) {
 
