@@ -1,3 +1,8 @@
+// author: Amanda Ngo 
+// date: July 17, 2021
+// last modified: July 18, 2022
+
+
 #include <stdio.h>
 #include <stdint.h>
 
@@ -6,14 +11,13 @@
  * the cols represent the indices of the arrays pointed to by the pointers 
  * in the elements of the main array.
 */
+
 typedef struct { 
     uint8_t** pixels;
     unsigned int rows;
     unsigned int cols;
 } img_t;
 
-
-/* task 01 */
 
 /*
   Save the entire 2D array in im into a file called 'filename' in a binary
@@ -23,6 +27,7 @@ typedef struct {
 
   Make sure you validate the parameters before you use them.
 */
+
 int img_save_binary(img_t* im, const char* filename);
 
 /*
@@ -32,10 +37,10 @@ int img_save_binary(img_t* im, const char* filename);
 
   Make sure you validate the parameter before you use it.
 */
+
 img_t* img_load_binary(const char* filename);
 
 
-// A3 REDECLARATIONS
 typedef enum {
     IMG_OK,
     IMG_BADINPUT,
