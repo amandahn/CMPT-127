@@ -1,8 +1,9 @@
 // author: Amanda Ngo 301433193
 // date: July 17, 2021
+// last modified: July 18, 2022
 // input: void
 // output: int
-// description: Create a program to test the functions made in t1img.c
+// description: Create a program to test the functions made in BinaryImage.c
 
 #include <stdio.h>
 #include <stdlib.h>
