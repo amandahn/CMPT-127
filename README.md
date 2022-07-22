@@ -1,4 +1,4 @@
-# CMPT-127, Summer 2021 - Computing Laboratory
+# CMPT 127, Summer 2021 - Computing Laboratory
 _Repository of class work done for CMPT 127 - Computing Laboratory_
 
 _**Assignment 4: 2D Image Generator**_
